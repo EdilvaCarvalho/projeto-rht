@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height:100%;
+	background-color: #E8E8E8;
+}
+
+.geral {
+	min-height:100%;
+	position:relative;
+	width:100%;
+	
+}
+
+.headerContainer{
+	float: left;
+	width: 100%;
+	background: cadetblue;
+	color: black;
+	position: fixed;
+}
+.footer {
+	position:absolute;
+	background: cadetblue;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer p{
+	padding: 1%;
+	text-align: center;
+	color: black;
+}
+
+.mainContainer{
+	float: left;
+	margin-left: 10%;
+	margin-top: 16%;
+	width: 40%;
+	text-align: center;	
+}
+
+.containerCadastro{
+	float: right;
+	margin-right: 7%;
+	margin-top: 7%;
+	width: 30%;
+}
+.cadastro input,a{
+	padding: 2%;
+	margin: 2%;
+	width: 100%;
+	border-radius: 8px 8px 8px 8px;
+}
+#cadastrar,a{
+	background-color: cadetblue;
+	font-size: 15px;
+	font-weight: bold;  
+        width: 50%;
+}
+
+

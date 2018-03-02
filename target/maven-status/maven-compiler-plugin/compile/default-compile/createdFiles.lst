@@ -1,0 +1,3 @@
+br\edu\ifpb\projeto\rht\controller\Controller.class
+br\edu\ifpb\projeto\rht\commands\Command.class
+br\edu\ifpb\projeto\rht\commands\GrauDeLideranca.class

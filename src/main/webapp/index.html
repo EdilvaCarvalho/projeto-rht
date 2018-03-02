@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+
+        <title>Perfil da Liderança</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="container text-center">Teste – Estou no caminho da Liderança?</h1><br>
+            <form method="post" id="login" action="Controller?command=GrauDeLideranca">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Pergunta</th>
+                            <th scope="col">Graus</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Conheço as metas globais da empresa, seus projetos e os resultados que ela obtém.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Mantenho-me informado sobre os outros setores da empresa, suas metas e projetos, dificuldades e facilidades.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Ajudo todos, incluindo meu chefe, a enfrentar novos desafios.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Mantenho-me atualizado com o que acontece no mundo.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Envolvo-me na elaboração e disseminação da missão, visão e valores da empresa.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>Percebo como a minha atribuição contribui para o desejado desempenho da empresa.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7</th>
+                            <td>Compartilho informações com todos os membros de minha equipe.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8</th>
+                            <td>Busco significado em meu trabalho e procuro fazer com que os outros também o busquem.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9</th>
+                            <td>Faço alianças com pessoas de outros setores, dentro ou fora da empresa, de modo a atingir metas que possam beneficiar a todos.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10</th>
+                            <td>Considero que, enquanto estiver na empresa, tenho de ser comprometido com ela.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11</th>
+                            <td>Procuro ouvir o ponto de vista de outras pessoas, mesmo quando discordo dele.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12</th>
+                            <td>Admito que tenho muito a aprender e, portanto, a desenvolver-me.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">13</th>
+                            <td>Esforço-me para que as realizações inovadoras da empresa sejam bem sucedidas.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">14</th>
+                            <td>Vejo crises, incertezas, turbulências como oportunidades para aprendizagem e mudanças.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15</th>
+                            <td>Reconheço que minhas decisões sejam afetadas por sentimentos.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16</th>
+                            <td>Reconheço e recompenso aqueles que contribuem para o sucesso da empresa.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17</th>
+                            <td>Procuro aprender ao máximo sobre problemas e com eles, independentemente de visualizar-lhes ou não uma solução.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18</th>
+                            <td>Busco ser criativo.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">19</th>
+                            <td>Envolvo pessoas de vários níveis na realização de mudanças e decisões importantes.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">20</th>
+                            <td>Crio situações que estimulam o crescimento de indivíduos e grupos.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">21</th>
+                            <td>Tenho atitude positiva diante das dificuldades.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">22</th>
+                            <td>Uso palavras de estímulo quando os resultados não são satisfatórios, de modo que todos possam aprender com o erro.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">23</th>
+                            <td>Escuto a opinião da equipe, sempre estimulando os colaboradores a pensar, participar e assumir novos desafios.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">24</th>
+                            <td>Valorizo os sentimentos das pessoas com as quais trabalho e as estimulo a fazer o mesmo.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">25</th>
+                            <td>Procuro ter alto astral.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">26</th>
+                            <td>Sei catalisar a energia das pessoas da empresa para a solução de problemas e para a realização dos projetos da empresa.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">27</th>
+                            <td>Sou cooperativo, leal, ético e jamais prometo algo que não posso cumprir.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">28</th>
+                            <td>Tenho humildade suficiente pata aceitar meus pontos fracos, bem como as críticas.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">29</th>
+                            <td>Busco superar metas.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">30</th>
+                            <td>Procuro criar na empresa um ambiente de trabalho estimulante e desafiador.</td>
+                            <td>
+                                <select class="form-control" name="grau">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="form-group col-md-6 center-block">
+                    <input id="btnEnviar" type="submit" value="Enviar" class="btn btn-primary btn-block">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
